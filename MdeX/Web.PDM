@@ -1,0 +1,134 @@
+[Root]
+Most Recent Package=MdeX-Setup
+Most Recent Deploy=Folder Deployment 1
+
+[Deploy|Folder Deployment 1|Root]
+Package=MdeX-Setup
+Handler=PDWizard.FolderDplySubWiz
+Folder=D:\Program Files\Microsoft Visual Studio\VB98\MdeX\New Folder
+
+[Package|MdeX-Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\My Downloads\12321
+
+[Package|MdeX-Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MdeX-Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MdeX-Setup|Files Found]
+
+[Package|MdeX-Setup|Files Released]
+
+[Package|MdeX-Setup|Missing Dependency Information]
+D:\My Downloads\#VB\#ActiveX\MagicButton.ocx=
+D:\My Downloads\#VB\#ActiveX\XPText.ocx=
+C:\WINDOWS\system32\FM20.DLL=
+D:\My Downloads\#VB\#ActiveX\LunaBar.ocx=
+
+[Package|MdeX-Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\msinet.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\RICHTX32.OCX=
+
+[Package|MdeX-Setup|Files Added]
+
+[Package|MdeX-Setup|Files Removed]
+c:\windows\system32\comct332.ocx=
+c:\windows\system32\fm20.dll=
+c:\windows\system32\msinet.ocx=
+c:\windows\system32\picclp32.ocx=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\riched32.dll=
+c:\windows\system32\richtx32.ocx=
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\windows\system32\mscomctl.ocx=
+
+[Package|MdeX-Setup|Files In Project]
+C:\Documents and Settings\admin\Desktop\Web.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=No
+C:\WINDOWS\system32\oleaut32.dll=No
+C:\WINDOWS\system32\olepro32.dll=No
+C:\WINDOWS\system32\asycfilt.dll=No
+C:\WINDOWS\system32\stdole2.tlb=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS\system32\RICHTX32.OCX=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=No
+C:\WINDOWS\system32\mscomctl.ocx=No
+D:\My Downloads\#VB\#ActiveX\LunaBar.ocx=Yes
+C:\WINDOWS\system32\FM20.DLL=No
+C:\WINDOWS\system32\msinet.ocx=No
+C:\WINDOWS\system32\PICCLP32.OCX=No
+D:\My Downloads\#VB\#ActiveX\XPText.ocx=Yes
+C:\WINDOWS\system32\COMCT332.OCX=No
+D:\My Downloads\#VB\#ActiveX\MagicButton.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|MdeX-Setup|Configure Registry Files]
+Applicable=No
+
+[Package|MdeX-Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|MdeX-Setup|Install Locations]
+C:\Documents and Settings\admin\Desktop\Web.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+D:\My Downloads\#VB\#ActiveX\LunaBar.ocx=$(WinSysPath)
+C:\WINDOWS\system32\FM20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msinet.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+D:\My Downloads\#VB\#ActiveX\XPText.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+D:\My Downloads\#VB\#ActiveX\MagicButton.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|MdeX-Setup|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\admin\Desktop\Web.exe=No
+
+[Package|MdeX-Setup|Distribution]
+Type=single
+Size=
+Title=MustDie-EXplorer
+
+[Package|MdeX-Setup|Package]
+PackageFolder=D:\My Downloads\12321
+ProjectFolder=D:\Program Files\Microsoft Visual Studio\VB98\MdeX
+ServerSideCab=
+File1=D:\My Downloads\12321\setup.exe
+File2=D:\My Downloads\12321\Setup.Lst
+File3=D:\My Downloads\12321\Web.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|MdeX-Setup|IconGroups]
+Group0=MustDie-EXplorer
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|MdeX-Setup|MustDie-EXplorer]
+Icon1=Web.exe
+Title1=MustDie-EXplorer
+StartIn1=$(AppPath)
+Key1=Icon1
